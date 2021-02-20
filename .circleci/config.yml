@@ -8,8 +8,7 @@ jobs:
         aws_auth:
           aws_access_key_id: AKIA6BHWKSTFYUZ23BQK  # can specify string literal values
           aws_secret_access_key: $nVAGzX8GdQ9AYt+h9mShm15p7DrjQ5mjxW8qCe/N  # or project UI envar reference
-    environment:
-      AWS_REGION: US East (N. Virginia) us-east-1
+
     steps:
       - checkout
       - run: npm install
