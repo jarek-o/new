@@ -4,7 +4,7 @@ orbs:
 jobs:
   build:
     docker:
-      - image: 964736750795.dkr.ecr.us-east-1.amazonaws.com/org/repo:0.1
+      - image: circleci/python:2.7-node
         aws_auth:
           aws_access_key_id: AKIA6BHWKSTFYUZ23BQK  # can specify string literal values
           aws_secret_access_key: $nVAGzX8GdQ9AYt+h9mShm15p7DrjQ5mjxW8qCe/N  # or project UI envar reference
